@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 980px;
+    margin: 20px auto;
+}
+article {
+    border: 5px solid black;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+.product-title {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.shipping {
+    color: #7e7a7a;
+    text-transform: uppercase;
+}
+a:link {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+ul,
+ol {
+    margin: 0px 20px;
+}
+.details-title {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+ul {
+    list-style-type: square;
+}
+li {
+    margin-bottom: 10px;
+}
+.add-cart {
+    text-transform: uppercase;
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: #f7f7f7;
+    width: 100%;
+    padding: 10px 0;
+}
+.add-cart:hover {
+    color: black;
+    background-color: #f7f7f7;
+    border: #f7f7f7;
+    cursor: pointer;
+    border-top: 4px solid black;
+}
+.sale-para {
+    background-color: red;
+    letter-spacing: 3px;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    position: absolute;
+    left: -40px;
+    top: -20px;
+}
+
+.s-black {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.s-blue {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.s-red {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.s-yellow {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.s-green {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.s-brown {
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.img-div {
+    flex: 1;
+}
+
+.price-div2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.price-div {
+    flex: 1;
+}
+.details-div {
+    flex: 1;
+}
+.flex-div {
+    display: flex;
+    gap: 80px;
+}
